@@ -1,6 +1,6 @@
 <img width="1328" height="1888" alt="AssetForge" src="https://github.com/user-attachments/assets/428679d3-c86b-4d00-b5af-2a12b35d10e6" />
 
-Morphs Asset Forge & Icon Master (v2.26)
+Morphs Asset Forge & Icon Master 
 
 Lightweight Asset Transformation, Multi-Resolution Icon Packing & Chroma Studio
 
