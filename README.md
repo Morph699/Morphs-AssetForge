@@ -1,41 +1,60 @@
-<img width="1328" height="1888" alt="AssetForge" src="https://github.com/user-attachments/assets/428679d3-c86b-4d00-b5af-2a12b35d10e6" />
+<img width="1024" height="1536" alt="AssetForge" src="https://github.com/user-attachments/assets/b2dd416c-5f75-4ef8-9f07-2ea59ad67bf4" />
 
-Morphs Asset Forge & Icon Master 
+# Morphs AssetForge & Icon Master
+### *Professional Offline Asset Processor, Chroma Knockout & Multi-Resolution Icon Studio*
 
-Lightweight Asset Transformation, Multi-Resolution Icon Packing & Chroma Studio
+Transform logos, artwork, and game sprites into production-ready assets in seconds. **Morphs AssetForge** is a fast, privacy-first image engineering workspace designed for digital creators, application developers, web designers, and software engineers. Run complex chroma background removals, extract custom color palettes, downscale or upscale canvas boundaries, and generate complete multi-resolution icon bundles—all processed 100% locally on your machine.
 
-Overview
+## Key Studio Capabilities
 
-Morphs Asset Forge & Icon Master is an air-gapped, zero-latency graphics utility built for developers, designers, and creators who need clean assets, app icons, and favicons without the bloat of heavyweight editing suites.
+### ✨ Precision Chroma Knockout (Background Removal)
+* **Intelligent Color Keying:** Select any background color directly using the interactive visual color picker.
+* **Granular Tolerance & Feathering:** Dial in exact chroma boundaries with real-time slider controls and soft edge-feathering to eliminate color halos and jagged pixel borders.
+* **Non-Destructive Background Reversion:** Revert back to the unedited master original instantly without reloading the canvas or losing adjustments.
 
-Available as a native Windows desktop executable and a standalone, touch-optimized Android/Web workstation, Asset Forge handles background knockout, precision scaling, color palette quantization, vector path tracing,
-and multi-resolution binary .ico bundling—entirely offline on your local hardware.
+### 📐 Precision Canvas Resizer & Scaling Suite
+* **Custom Dimensioning:** Resize to exact pixel dimensions (from 16×16 up to 4096×4096) with high-quality filtering.
+* **Instant 1:1 Presets:** One-click quick-snap buttons for standard asset squares: `256²`, `512²`, and `1024²`.
+* **Aspect Protection & Reset:** Revert to original ingested dimensions at any time. Built-in upscaling alerts help you avoid accidental distortion.
 
-Core Capabilities & Features
+### 🎨 Dominant Color Palette Extractor
+* **Automated Palette Clustering:** Instantly samples your artwork and extracts dominant hex color swatches.
+* **One-Click CSS Generation:** Export extracted swatches directly into clean, standardized CSS custom property blocks (`--color-1`, `--color-2`, etc.) ready to paste into your UI stylesheets.
+* **Quick Hex Copy:** Tap any swatch to copy its hexadecimal color code directly to your clipboard.
 
-  - 🛡️ Memory Shield Ingestion Engine: Automatically downscales oversized master inputs (>1024\text{px}) using bicubic interpolation, protecting device RAM and eliminating container out-of-memory crashes while preserving pixel fidelity.
-  - ✨ Euclidean Chroma Knockout Studio: Rapidly key out backgrounds using true Euclidean RGB color distance with real-time chroma tolerance sliders (5–160) and smooth alpha edge feathering (0–15\text{px}). Revert to master frames non-destructively at any time.
-  - 📐 Precision Canvas Resizer: Freely scale canvases from 16\text{px} up to 4096\text{px} with a 2.2\times pixel distortion radar and quick presets for 256^2, 512^2, and 1024^2 square standards.
-  - 🎨 Extracted Dominant Palette Studio: Automatically clusters and quantizes the top 6 dominant colors from your image into interactive swatches with one-click CSS variable block generation (:root { --color-1: ... }).
-  - 📦 Multi-Resolution Asset Export Matrix: 
-      - Master Clean PNG: Full-fidelity transparent output.
-      - App Icon Kit: Standardized 512 \times 512\text{px} production asset.
-      - Web Favicon: Clean 32 \times 32\text{px} browser icon.
-      - Windows .ICO (7 Sizes in 1 File): Bundles 16, 24, 32, 48, 64, 128, and 256\text{px} frames into a single binary-packed Windows icon file.
-      - Vector .SVG Trace: Quantized boundary scanning that traces opaque alpha blocks (A > 128) directly into scalable <path> vectors.
-  - 🗄️ Local Saved Asset Vault: High-speed local repository (IndexedDB on Web/Android, local app directory on Windows) with instant thumbnail previews, timestamps, direct downloads, and asset inspection.
-  - 💾 100% Air-Gapped Universal Export: Direct Base64 data anchor downloads and touch-and-hold save hubs that bypass native container crashes with zero third-party cloud relays.
-  - 🎨 10 High-Contrast Themes (WCAG AAA): Calibrated for maximum legibility across Light Slate, Dark Stealth, Matrix Green, Cyber Yellow, Cyberpunk Pink, Dracula Purple, Blood Matrix, Nordic Frost, Solarized Ocean, and
-    Sunset Amber.
-  - 🔤 4-Tier Responsive Font Scaler: Instant scaling across Small, Medium, Large, and Extra Large display tiers.
-  - ⚡ Gothic Fade & Pulse Startup (Windows): Distinctive, pixel-locked startup screen with auto-discovery for AmericanText.ttf / Old English Text MT and a 7-color palette pulse.
+### 📦 Multi-Format Asset & Icon Exporter
+Generate all standard distribution assets directly from a single master canvas:
+* **Master Clean PNG:** Full-resolution, transparent PNG output preserving alpha depth.
+* **Mobile App Icon:** Formatted and centered at 512×512 PNG, ideal for mobile store submissions and manifests.
+* **Web Favicon:** Optimized 32×32 PNG favicon for browsers, bookmarks, and mobile shortcuts.
+* **Windows Multi-Resolution Icon (`.ico`):** A genuine binary `.ico` file containing **7 multi-resolution frames** (16×16, 24×24, 32×32, 48×48, 64×64, 128×128, and 256×256) packaged into a single file for seamless desktop software integration.
+* **Vector Path Trace (`.svg`):** Converts active foreground pixels into scalable, lightweight vector paths ready for SVG graphic pipelines.
 
-Platform Availability
+### 🗄️ Integrated Asset Vault & Inspection Deck
+* **Local Offline Storage:** Keep generated assets indexed within your local workspace without saving duplicate files to random folders.
+* **Touch-and-Hold Preview Modal:** Inspect transparent assets against an alpha checkerboard grid before exporting.
+* **Comprehensive Vault Controls:** Download individual items, inspect file metadata, reveal files directly in your file explorer, or purge your local store whenever you choose.
 
-1.  Windows Native Desktop (AssetForge_Paid.ps1 / .exe):
-      - Pure WinForms executable compiled via PS2EXE.
-      - Multi-monitor bounds restoration and dual-persistence configuration engine (settings_paid.json).
-      - Embedded dragon application icon and sub-second telemetry log buffer.
-2.  Android & Web SPA (Morphs_AssetForge_Paid.html):
-      - Mobile-first, responsive standalone PWA container.
-      - Zero external npm or CDN dependencies—runs 100% offline in any modern browser or hybrid container.
+### 🔒 100% Private, Air-Gapped & Secure
+* **Client-Side Engine:** All processing occurs directly within local system memory (RAM).
+* **Zero Cloud Dependence:** No remote server uploads, no analytics trackers, no subscription accounts, and no data harvesting. Your master artwork never leaves your device.
+
+## Access Tiers & Feature Breakdown
+
+Morphs AssetForge offers flexible access tiers to accommodate quick tasks, casual creators, and full-time professional studios:
+
+| Feature / Capability | Core Free Tier | Supporter Tier *(Any Tip)* | Standard Edition *($3.99)* | Pro Premium Edition *($6.49)* |
+| :--- | :---: | :---: | :---: | :---: |
+| **Chroma Knockout Studio** | Included | Included | Included | Included |
+| **Precision Canvas Resizer** | Included | Included | Included | Included |
+| **Dominant Palette & CSS Export** | Included | Included | Included | Included |
+| **All Exporters (PNG, Favicon, ICO, SVG)** | Included | Included | Included | Included |
+| **Total Conversions / Exports** | **3 Total** | **5 Total** | **10 Total** | **Unlimited Lifetime** |
+| **Saved Asset Vault Capacity** | **3 Files** | **5 Files** | **10 Files** | **Unlimited Storage** |
+| **UI Theme Collection** | Soft Slate & Stealth Dark | + Matrix Green | + Cyber Yellow & Cyberpunk Pink | **All 10 High-Contrast Themes** *(Includes Dracula Purple, Blood Matrix, Nordic Frost, Solarized Ocean, Sunset Amber)* |
+| **UI Typography Scaling** | Small & Medium | Small & Medium | + Large | **All Sizes (Includes Extra Large)** |
+| **Activation Method** | Default Baseline | Supporter Key (Manual Delivery) | Instant License Key | Instant License Key |
+
+## Platform Availability
+* **Modern Desktop Environments:** High-performance, portable Windows native application with hardware-accelerated rendering and multi-display DPI awareness.
+* **Mobile & Hybrid Environments:** Responsive touch-first hybrid containers, and Progressive Web Apps. Built-in direct share sheets and mobile long-press image saving make exporting on mobile effortless.
